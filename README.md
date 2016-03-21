@@ -7,16 +7,16 @@ Data from https://www.kaggle.com/kaggle/us-baby-names
 
 Compare multiple names:
 
-	python analysis.py --names Wells Howard Jamie Louis Darren --gender=M -o namePlot_compare.png
+	python name_frequency.py --names Wells Howard Jamie Louis Darren --gender=M -o namePlot_compare.png
 
 Normalize and compare shapes of names:
 
-	python analysis.py --names Darren Daren Darin --gender=M -o namePlot_Darrens_norm.png --normalize
+	python name_frequency.py --names Darren Daren Darin --gender=M -o namePlot_Darrens_norm.png --normalize
 
 Plot single name and year when individual with that name was born:
 
-	python analysis.py --names=Darren --year=1982 --gender=M
+	python name_frequency.py --names=Darren --year=1982 --gender=M
 
 Get help menu with option arguments:
 
-	python analysis.py --help
+	python name_frequency.py --help
